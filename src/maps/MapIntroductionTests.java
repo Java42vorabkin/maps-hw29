@@ -47,6 +47,7 @@ Integer values[] = {10, 20, 30, 40, 50};
 //		for(String str: treeMap) {
 //			
 //		}
+//		String keys[] = {"abc", "lmn", "drt", "lmn", "abcd"};
 		Iterable<String> treeIterableExpected = Arrays.asList("abc", "abcd","drt","lmn");
 		Iterable<String> linkedHashExpected = Arrays.asList("abc", "lmn", "drt",  "abcd");
 		assertIterableEquals(treeIterableExpected, treeMap.keySet());
